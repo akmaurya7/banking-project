@@ -1,0 +1,13 @@
+1. docker compose -f docker-compose.yml up -d
+
+
+2. docker compose run --rm airflow-webserver airflow db migrate   ( to correctly initialize the db)
+
+3. docker compose exec airflow-webserver airflow users create --username adarsh --firstname adarsh --lastname k --role Admin --email amaurya4570@gmail.com --password password123
+
+4. to correct the asiz/kolkata file is present at: C:\Program Files\DBeaver
+
+5. pip install -r requirements.txt 
+
+snowflake account: amaurya7/EmployeeId@31444   gmail: amaurya4570@gmail
+
